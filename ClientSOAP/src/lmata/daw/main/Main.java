@@ -32,6 +32,7 @@ public class Main {
 		for(Producte item: pr) {
 			System.out.println("Nom: "+item.getNom()+" Preu: "+item.getPreu());
 		}
+		
 		System.out.println("Obtenir Productes Filtrats per Data: ");
 		for(Producte item: pr2) {
 			System.out.println("Nom: "+item.getNom()+" Preu: "+item.getPreu());
