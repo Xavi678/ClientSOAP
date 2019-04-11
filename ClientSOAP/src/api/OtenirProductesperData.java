@@ -9,9 +9,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Clase Java para anonymous complex type.
+ * <p>Java class for anonymous complex type.
  * 
- * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType>
@@ -46,7 +46,7 @@ public class OtenirProductesperData {
     protected String fi;
 
     /**
-     * Obtiene el valor de la propiedad user.
+     * Gets the value of the user property.
      * 
      * @return
      *     possible object is
@@ -58,7 +58,7 @@ public class OtenirProductesperData {
     }
 
     /**
-     * Define el valor de la propiedad user.
+     * Sets the value of the user property.
      * 
      * @param value
      *     allowed object is
@@ -70,7 +70,7 @@ public class OtenirProductesperData {
     }
 
     /**
-     * Obtiene el valor de la propiedad inici.
+     * Gets the value of the inici property.
      * 
      * @return
      *     possible object is
@@ -82,7 +82,7 @@ public class OtenirProductesperData {
     }
 
     /**
-     * Define el valor de la propiedad inici.
+     * Sets the value of the inici property.
      * 
      * @param value
      *     allowed object is
@@ -94,7 +94,7 @@ public class OtenirProductesperData {
     }
 
     /**
-     * Obtiene el valor de la propiedad fi.
+     * Gets the value of the fi property.
      * 
      * @return
      *     possible object is
@@ -106,7 +106,7 @@ public class OtenirProductesperData {
     }
 
     /**
-     * Define el valor de la propiedad fi.
+     * Sets the value of the fi property.
      * 
      * @param value
      *     allowed object is

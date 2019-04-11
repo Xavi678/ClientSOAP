@@ -60,6 +60,20 @@ public interface ServeiCarro {
 
     /**
      * 
+     * @param user
+     * @return
+     *     returns java.util.List<api.Producte>
+     */
+    @WebMethod
+    @WebResult(name = "obtenirProductesReturn", targetNamespace = "http://api")
+    @RequestWrapper(localName = "obtenirProductes", targetNamespace = "http://api", className = "api.ObtenirProductes")
+    @ResponseWrapper(localName = "obtenirProductesResponse", targetNamespace = "http://api", className = "api.ObtenirProductesResponse")
+    public List<Producte> obtenirProductes(
+        @WebParam(name = "user", targetNamespace = "http://api")
+        String user);
+
+    /**
+     * 
      * @param product
      * @param user
      * @return
@@ -74,20 +88,6 @@ public interface ServeiCarro {
         String user,
         @WebParam(name = "product", targetNamespace = "http://api")
         String product);
-
-    /**
-     * 
-     * @param user
-     * @return
-     *     returns java.util.List<api.Producte>
-     */
-    @WebMethod
-    @WebResult(name = "obtenirProductesReturn", targetNamespace = "http://api")
-    @RequestWrapper(localName = "obtenirProductes", targetNamespace = "http://api", className = "api.ObtenirProductes")
-    @ResponseWrapper(localName = "obtenirProductesResponse", targetNamespace = "http://api", className = "api.ObtenirProductesResponse")
-    public List<Producte> obtenirProductes(
-        @WebParam(name = "user", targetNamespace = "http://api")
-        String user);
 
     /**
      * 

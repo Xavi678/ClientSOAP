@@ -8,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Clase Java para Producte complex type.
+ * <p>Java class for Producte complex type.
  * 
- * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="Producte">
@@ -64,7 +64,7 @@ public class Producte {
     protected int venuts;
 
     /**
-     * Obtiene el valor de la propiedad data.
+     * Gets the value of the data property.
      * 
      * @return
      *     possible object is
@@ -76,7 +76,7 @@ public class Producte {
     }
 
     /**
-     * Define el valor de la propiedad data.
+     * Sets the value of the data property.
      * 
      * @param value
      *     allowed object is
@@ -88,7 +88,7 @@ public class Producte {
     }
 
     /**
-     * Obtiene el valor de la propiedad dataFi.
+     * Gets the value of the dataFi property.
      * 
      * @return
      *     possible object is
@@ -100,7 +100,7 @@ public class Producte {
     }
 
     /**
-     * Define el valor de la propiedad dataFi.
+     * Sets the value of the dataFi property.
      * 
      * @param value
      *     allowed object is
@@ -112,7 +112,7 @@ public class Producte {
     }
 
     /**
-     * Obtiene el valor de la propiedad descripcio.
+     * Gets the value of the descripcio property.
      * 
      * @return
      *     possible object is
@@ -124,7 +124,7 @@ public class Producte {
     }
 
     /**
-     * Define el valor de la propiedad descripcio.
+     * Sets the value of the descripcio property.
      * 
      * @param value
      *     allowed object is
@@ -136,7 +136,7 @@ public class Producte {
     }
 
     /**
-     * Obtiene el valor de la propiedad disponibilitat.
+     * Gets the value of the disponibilitat property.
      * 
      */
     public int getDisponibilitat() {
@@ -144,7 +144,7 @@ public class Producte {
     }
 
     /**
-     * Define el valor de la propiedad disponibilitat.
+     * Sets the value of the disponibilitat property.
      * 
      */
     public void setDisponibilitat(int value) {
@@ -152,7 +152,7 @@ public class Producte {
     }
 
     /**
-     * Obtiene el valor de la propiedad id.
+     * Gets the value of the id property.
      * 
      */
     public int getId() {
@@ -160,7 +160,7 @@ public class Producte {
     }
 
     /**
-     * Define el valor de la propiedad id.
+     * Sets the value of the id property.
      * 
      */
     public void setId(int value) {
@@ -168,7 +168,7 @@ public class Producte {
     }
 
     /**
-     * Obtiene el valor de la propiedad nom.
+     * Gets the value of the nom property.
      * 
      * @return
      *     possible object is
@@ -180,7 +180,7 @@ public class Producte {
     }
 
     /**
-     * Define el valor de la propiedad nom.
+     * Sets the value of the nom property.
      * 
      * @param value
      *     allowed object is
@@ -192,7 +192,7 @@ public class Producte {
     }
 
     /**
-     * Obtiene el valor de la propiedad preu.
+     * Gets the value of the preu property.
      * 
      */
     public int getPreu() {
@@ -200,7 +200,7 @@ public class Producte {
     }
 
     /**
-     * Define el valor de la propiedad preu.
+     * Sets the value of the preu property.
      * 
      */
     public void setPreu(int value) {
@@ -208,7 +208,7 @@ public class Producte {
     }
 
     /**
-     * Obtiene el valor de la propiedad propietari.
+     * Gets the value of the propietari property.
      * 
      * @return
      *     possible object is
@@ -220,7 +220,7 @@ public class Producte {
     }
 
     /**
-     * Define el valor de la propiedad propietari.
+     * Sets the value of the propietari property.
      * 
      * @param value
      *     allowed object is
@@ -232,7 +232,7 @@ public class Producte {
     }
 
     /**
-     * Obtiene el valor de la propiedad venuts.
+     * Gets the value of the venuts property.
      * 
      */
     public int getVenuts() {
@@ -240,7 +240,7 @@ public class Producte {
     }
 
     /**
-     * Define el valor de la propiedad venuts.
+     * Sets the value of the venuts property.
      * 
      */
     public void setVenuts(int value) {

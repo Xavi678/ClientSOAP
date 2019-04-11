@@ -8,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Clase Java para anonymous complex type.
+ * <p>Java class for anonymous complex type.
  * 
- * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType>
@@ -36,7 +36,7 @@ public class AfegirProducteResponse {
     protected boolean afegirProducteReturn;
 
     /**
-     * Obtiene el valor de la propiedad afegirProducteReturn.
+     * Gets the value of the afegirProducteReturn property.
      * 
      */
     public boolean isAfegirProducteReturn() {
@@ -44,7 +44,7 @@ public class AfegirProducteResponse {
     }
 
     /**
-     * Define el valor de la propiedad afegirProducteReturn.
+     * Sets the value of the afegirProducteReturn property.
      * 
      */
     public void setAfegirProducteReturn(boolean value) {

@@ -1,12 +1,16 @@
 package almata.daw.models;
 
+import java.util.Date;
+
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 
+import api.Producte;
+
 @XmlRootElement(name = "Productes")
-public class Producte {
+public class myProducte  extends Producte{
 	
-	private int id;
+	/*private int id;
 	private String nom;
 	private int disponibilitat;
 	private String descripcio;
@@ -14,10 +18,10 @@ public class Producte {
 	private String propietari;
 	private String data;
 	private int venuts;
-	private String dataFi;
+	private String dataFi;*/
 
 	
-	public Producte(int id, String nom, int disponibilitat, String descripcio, int preu, String propietari, String data,
+	public myProducte(int id, String nom, int disponibilitat, String descripcio, int preu, String propietari, String data,
 			int venuts, String dataFi) {
 		super();
 		this.id = id;
@@ -33,16 +37,28 @@ public class Producte {
 
 
 
-	public Producte() {
+	public myProducte() {
 		
 	}
 	
 	
 	
-	public Producte(int id, String nom, int disponibilitat, String descripcio, int preu, String propietari,
+	public myProducte(int id, String nom, int disponibilitat, String descripcio, int preu, String propietari,
 			String data) {
 		super();
 		this.id = id;
+		this.nom = nom;
+		this.disponibilitat = disponibilitat;
+		this.descripcio = descripcio;
+		this.preu = preu;
+		this.propietari = propietari;
+		this.data = data;
+	}
+	
+	public myProducte( String nom, int disponibilitat, String descripcio, int preu, String propietari,
+			String data) {
+		super();
+		
 		this.nom = nom;
 		this.disponibilitat = disponibilitat;
 		this.descripcio = descripcio;
@@ -55,7 +71,7 @@ public class Producte {
 
 
 
-	public Producte(int id, String nom, int disponibilitat, String descripcio, int preu, String propietari, String data,
+	public myProducte(int id, String nom, int disponibilitat, String descripcio, int preu, String propietari, String data,
 			int venuts) {
 		super();
 		this.id = id;
@@ -68,7 +84,7 @@ public class Producte {
 		this.venuts = venuts;
 	}
 	
-	public Producte( String nom, int disponibilitat, String descripcio, int preu, String propietari, String data,
+	public myProducte( String nom, int disponibilitat, String descripcio, int preu, String propietari, String data,
 			int venuts,String dataFi) {
 		super();
 	
@@ -97,7 +113,7 @@ public class Producte {
 
 
 
-	public Producte(String nom, int disponibilitat, String descripcio, int preu) {
+	public myProducte(String nom, int disponibilitat, String descripcio, int preu) {
 		super();
 		
 		this.nom = nom;
@@ -109,7 +125,7 @@ public class Producte {
 	
 	
 	
-	public Producte( String nom, int disponibilitat, String descripcio, int preu, String propietari) {
+	public myProducte( String nom, int disponibilitat, String descripcio, int preu, String propietari) {
 		super();
 		
 		this.nom = nom;
@@ -119,7 +135,7 @@ public class Producte {
 		this.setPropietari(propietari);
 	}
 	
-	public Producte(int id, String nom, int disponibilitat, String descripcio, int preu, String propietari) {
+	public myProducte(int id, String nom, int disponibilitat, String descripcio, int preu, String propietari) {
 		super();
 		this.id=id;
 		this.nom = nom;
@@ -137,7 +153,7 @@ public class Producte {
 
 
 
-	public Producte(int id, String nom, int disponibilitat, String descripcio, int preu) {
+	public myProducte(int id, String nom, int disponibilitat, String descripcio, int preu) {
 		super();
 		this.id = id;
 		this.nom = nom;

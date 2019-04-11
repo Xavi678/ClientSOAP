@@ -9,9 +9,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Clase Java para anonymous complex type.
+ * <p>Java class for anonymous complex type.
  * 
- * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType>
@@ -42,7 +42,7 @@ public class Autenticar {
     protected String passwd;
 
     /**
-     * Obtiene el valor de la propiedad nom.
+     * Gets the value of the nom property.
      * 
      * @return
      *     possible object is
@@ -54,7 +54,7 @@ public class Autenticar {
     }
 
     /**
-     * Define el valor de la propiedad nom.
+     * Sets the value of the nom property.
      * 
      * @param value
      *     allowed object is
@@ -66,7 +66,7 @@ public class Autenticar {
     }
 
     /**
-     * Obtiene el valor de la propiedad passwd.
+     * Gets the value of the passwd property.
      * 
      * @return
      *     possible object is
@@ -78,7 +78,7 @@ public class Autenticar {
     }
 
     /**
-     * Define el valor de la propiedad passwd.
+     * Sets the value of the passwd property.
      * 
      * @param value
      *     allowed object is
